@@ -28,6 +28,8 @@ import tauriIcon from './svg/tauri.svg';
 import reactNativeIcon from './svg/react-native.svg';
 import gitIcon from './svg/git.svg';
 import nxIcon from './svg/nx.svg';
+import githubCopilotIcon from './svg/github-copilot.svg';
+import ollamaIcon from './svg/ollama.svg';
 import graphqlIcon from './svg/graphql.svg';
 import meilisearchIcon from './svg/meilisearch.svg';
 
@@ -201,6 +203,14 @@ export const skillCategories: SkillCategory[] = [
         name: "NX",
         icon: nxIcon,
       },
+      {
+        name: "GitHub Copilot",
+        icon: githubCopilotIcon,
+      },
+      {
+        name: "Ollama",
+        icon: ollamaIcon,
+      }
     ],
   },
   {
