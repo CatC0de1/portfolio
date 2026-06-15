@@ -1,3 +1,5 @@
+import certifBnsp from './images/certif-bnsp.webp';
+import certifAws from './images/certif-aws.webp';
 import certifAlibaba from './images/certif-alibaba.webp';
 import certifNestjs from './images/certif-nestjs.webp';
 
@@ -22,11 +24,27 @@ export const certificates: Certificate[] = [
     url: "https://www.aliyun.com/certificate/"
   },
   {
+    id: "bnsp",
+    src: certifBnsp,
+    alt: "BNSP Junior Web Programmer Certificate",
+    title: "BNSP Junior Web Programmer",
+    issuer: "BNSP",
+    date: "2025",
+  },
+  {
     id: "codepolitan",
     src: certifNestjs,
     alt: "Directory Listing App Certificate from codepolitan",
     title: "Directory Listing App Course",
     issuer: "Codepolitan",
     date: "2023"
+  },
+  {
+    id: "aws",
+    src: certifAws,
+    alt: "AWS Cloud Practitioner Certificate",
+    title: "AWS Cloud Practitioner",
+    issuer: "Amazon Web Services",
+    date: "2026"
   }
 ];
